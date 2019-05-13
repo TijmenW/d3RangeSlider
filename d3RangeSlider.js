@@ -149,8 +149,8 @@ function createD3RangeSlider (rangeMin, rangeMax, containerSelector, playButton)
             var uislope = (rangeMax - rangeMin - rangeW) / (conW - uirangeW);
         }
         var rangeL = rangeMin + uislope * uirangeL;
-        sliderRange.begin = Math.round(rangeL);
-        sliderRange.end = Math.round(rangeL + rangeW);
+        sliderRange.begin = Math.round(rangeL * 100) / 100;
+        sliderRange.end = Math.round((rangeL + rangeW)*100)/100;
 
         //Fire change listeners
         changeListeners.forEach(function (callback) {
