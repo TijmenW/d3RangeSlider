@@ -1,5 +1,7 @@
 # Range slider
 
+_Forked from <https://github.com/RasmusFonseca/d3RangeSlider>_
+
 A small widget that allows the user to select a contiguous range of whole numbers
 using a slider. Check out [this site](https://rasmusfonseca.github.io/d3RangeSlider/) for a demo. The page
 `minimal.html` constitutes a minimal working example:
